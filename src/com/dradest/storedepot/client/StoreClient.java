@@ -28,7 +28,7 @@ public class StoreClient {
 		      //test get all users Web Service Method
 		      tester.testGetAllArticles();
 	  }
-	   //Test: Get list of all users
+	   //Test: Get list of all articles
 	   //Test: Check if list is not empty
 	   private void testGetAllArticles(){
 	      GenericType<List<Article>> list = new GenericType<List<Article>>() {};
